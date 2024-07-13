@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    font-family:sans-serif;
+}
+body{
+    background:rgb(238,174,202);
+    background:radial-gradient(circle,rgba(238,174,202,1),0%,rgba(148,187,233,1),100%);
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    background-color: #22252d;
+    border-radius: 20px;
+    padding-top:20px;
+}
+
+.resultbox{
+    width:400px;
+    height:80px;
+    text-align:center;
+    padding-top:40px;
+}
+.resultbox input{
+    text-align:right;
+    width:80%;
+    padding:3px 10px;
+    background-color:aliceblue;
+    border:0px;
+    color:blue;
+    cursor:default;
+}
+.buttons{
+    width:300px;
+    background-color:rgb(22, 16, 16);
+    padding:50px 60px;
+    padding-bottom: 30px;
+    border-radius:20px;
+}
+.buttons div{
+    display:flex;
+    justify-content: space-around;
+    margin:8px auto;
+}
+.buttons div input{
+    color:blueviolet;
+    border:12px solid balck;
+    margin:2px 3px;
+    width:120px;
+    padding:10px 30px;
+    font-weight: bold;
+    font-size:1rem;
+    cursor:pointer;
+    
+}
+.resultbox input[name="expression"]{
+    letter-spacing:0.2rem;
+}
+.resultbox input[name="result"]{
+    font-size: 1.8rem;
+    font-weight:bold;
+    padding:4px 10px;
+    letter-spacing:0.1em;
+}
+.fnkeys{
+    color:#2bc3a7 !important;
+}
+.operator{
+    color:#f47a7a !important;
+}
+.equal{
+    width: 130px !important;
+}
